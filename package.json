@@ -1,0 +1,32 @@
+{
+  "name": "envstash",
+  "version": "0.1.0",
+  "description": "Zero-dependency AES-256-GCM encrypted local .env and .dev.vars profile vault for ephemeral git worktrees",
+  "type": "module",
+  "bin": {
+    "envstash": "./bin/envstash.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node ./bin/envstash.js --help"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "secrets",
+    "vault",
+    "aes-256-gcm",
+    "worktree",
+    "cli"
+  ],
+  "license": "MIT"
+}
